@@ -3,6 +3,7 @@
 #imports
 from math import sin,cos,tan
 
+#variables declare
 x = int(input(r"Insira o angulo: "))
 
 seno = sin(x)
