@@ -24,6 +24,10 @@ mostrando em seguida o primeiro e o ultimo nome separadamente.add()
 
 
 """
+#imports
+import random
+
+
 # 1 -
 def teste():
     nome = str(input("Insira o nome: "))
@@ -33,6 +37,21 @@ def teste():
     print(len(nome.replace(" ","")))
     print(nome.find(" "))
 
+# 2 - 
+def teste2():
+    return [ letras for letras in str(random.randint(1,9999))]
 
-teste()
 
+
+# 3 - 
+def teste3():
+    nome = str(input("Insira o nome da cidade: "))
+    result = print("há") if "santo" in nome[:nome.find(" ")].lower() else print("Não há") #ternary operator if else
+
+#4 -
+def teste4():
+    frase = str(input("Insira a frase:\n"))   
+    print(frase.lower().count("a"), "\n ------")
+    print(frase.find("a"), " ", (~frase.find("a")) + len(frase) + 1, " ", len(frase))
+    
+teste4()
