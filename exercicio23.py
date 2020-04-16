@@ -13,7 +13,7 @@ elif len(letras) > 2:
     print("Centenas: " + letras[0])    
     print("Dezenas: " + letras[1])
     print("Unidades: " + letras[2])
-elif len(letras) > 1:git ps
+elif len(letras) > 1:
     print("Dezenas: " + letras[0])
     print("Unidades: " + letras[1]) 
 else:
